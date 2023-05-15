@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Hero Section</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500&display=swap" rel="stylesheet">
+    
     <style>
         body {
             padding: 0;
@@ -17,8 +22,7 @@
             margin: 0 auto;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            justify-content: flex-end;
             background-image: url(./images/headphone-s.jpg);
             background-size: cover;
             background-repeat: no-repeat;
@@ -28,9 +32,39 @@
         .container {
             display: flex;
             flex-direction: column;
-            justify-content: flex-end;
-            align-content: center;
+            align-items: center;
+            justify-items: flex-end;
             text-align: center;
+            background-color: rgba(255, 255, 255, 0.6);
+            font-family: 'raleway', sans-serif;
+            padding: 3rem;
+        }
+
+        .heading {
+            font-size: 4rem;
+            color: #437e35;
+            margin: 1rem;
+        }
+
+        .cta {
+            font-size: 1.6rem;
+            padding: 1.4rem 2.5rem;
+            border: none;
+            border-radius: 0.9rem;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .cta:hover {
+            background-color: #ff1b0f;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .container>p {
+            padding-bottom: 2rem;
+            margin-top: 0;
+            font-size: larger;
         }
     </style>
 </head>
@@ -44,7 +78,7 @@
             <p>
                 With the all new zMax Headphone Pro, designed for performance, strength and amazing sound quality.
             </p>
-            <button class="cta"></button>
+            <button class="cta">Order Now</button>
         </div>
     </section>
 </body>
