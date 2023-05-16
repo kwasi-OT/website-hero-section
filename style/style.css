@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    width: 85%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(./images/headphone-s.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-end;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: 'raleway', sans-serif;
+    padding: 3rem;
+    overflow: hidden;
+}
+
+.heading {
+    font-size: 4rem;
+    color: #437e35;
+    margin: 1rem;
+}
+
+.cta {
+    font-size: 1.6rem;
+    padding: 1.4rem 2.5rem;
+    border: none;
+    border-radius: 0.9rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.cta:hover {
+    background-color: #ff1b0f;
+    color: #fff;
+    font-weight: 600;
+}
+
+.container>p {
+    font-size: larger;
+}
